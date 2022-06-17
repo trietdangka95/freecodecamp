@@ -103,8 +103,23 @@ a {
   display: flex;
   justify-content: center;
 }
+@media (max-width:800px) {
+  #tb-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
 .product {
-  width: calc(100% / 3);
+  width: 100%;
   border: 1px solid #ccc;
   margin-right: 20px;
   margin-left: 20px;
@@ -112,6 +127,11 @@ a {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+}
+
+button:hover{
+  background-color: orange;
+  transition: background-color 1s;
 }
 .level {
   background-color: #cbcbcb;
@@ -121,7 +141,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} 
 footer {
   margin-top: 30px;
   background-color: #ddd;

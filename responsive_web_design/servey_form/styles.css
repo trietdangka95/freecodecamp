@@ -6,6 +6,9 @@
   background-size: cover;
   color: white;
 }
+p{
+  padding-bottom: 0px;
+}
 .cover {
   display: flex;
   flex-direction: column;
@@ -15,23 +18,24 @@
 
 #email {
   width: 100%;
-  margin-bottom: 10px;
+  height: 30px;
 }
 #name {
   width: 100%;
-  margin-bottom: 10px;
+  height: 30px;
 }
+
 #number {
   width: 100%;
-  margin-bottom: 10px;
+  height: 30px;
 }
 
 #survey-form {
+  width: 40%;
   border: 1px solid black;
-  padding: 10 30 10 10;
+  padding: 10 30 20 20;
   background-color: #1b1b32;
   border-radius: 5px;
-  padding-bottom: 30px;
   margin-bottom: 50px;
   opacity: 0.9;
 }
