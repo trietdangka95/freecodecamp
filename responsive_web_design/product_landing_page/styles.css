@@ -118,6 +118,26 @@ a {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+  nav > ul > li > a:hover {
+    color: #f1c40f
+  }
+}
+nav > ul > li > a:hover {
+  color: #f1c40f
+}
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+  #features {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 .product {
   width: 100%;
   border: 1px solid #ccc;
@@ -152,11 +172,6 @@ footer > ul {
   display: flex;
   justify-content: flex-end;
 }
-
-footer > ul > li {
-  padding: 0 10px;
-}
-
 footer > span {
   margin-top: 5px;
   display: flex;
@@ -164,3 +179,19 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+footer > ul > li {
+  padding: 0 10px;
+}
+
+@media (max-width: 650px){
+  footer > ul {
+    justify-content: center;
+    padding-left: 0;
+  }
+  footer > span {
+    justify-content: center;
+  }
+}
+
+
+
